@@ -32,6 +32,8 @@ public class LerTransacoesReaderConfig {
 			
 			private RowMapper<Transacao> rowMapperTransacao() {
 				
+				//mapeamento dos dados advindos do bd para o objeto aqui do bean
+				//O nome dos atributos precisa está igual aos nomes das colunas de uma tabela
 				return new RowMapper<Transacao>(){
 					
 					@Override
